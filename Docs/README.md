@@ -5,7 +5,7 @@
 2022.3.16f1 version tested only on Windows
 
 #### What is this?
-This is a simple launcher (installer and updater) made in Unity based on [Tom Weiland](https://www.youtube.com/@tomweiland)'s infamous [launcher tutorial](https://www.youtube.com/watch?v=JIjZQo03YdA) for which was originally a .NET WPF application and I converted into a Unity application.
+This is a simple launcher (installer and updater) made in Unity based on [Tom Weiland](https://www.youtube.com/@tomweiland)'s [launcher tutorial](https://www.youtube.com/watch?v=JIjZQo03YdA) for which was originally a .NET WPF application and I converted into a Unity application.
 
 #### What is the purpose?
 I originally made this in March of 2023 in Unity 2021.3.20f1 as I was about to send a game I was working on to a few people for testing. The game was in the works and I needed a way for people to be able to play new versions of the game without needing to go to some online host and download the latest files. Anyway this project is currently set in Unity 2022.3.10f1 when I last edited it. I would actually use and recommend something like [Patch](https://patch.mhlab.tech/) for a production launcher as obviously.. it supports patching. However this launcher is fine for small applications which doesn't really require patching or high-end functionality of professional patchers.
@@ -23,7 +23,7 @@ As discussed previously, this can be useful for auto-updating application files 
 #### Cons:
 * Its technically a game, made in a game engine and hence has many files bloating the final export while the original .NET WPF app was a single executable
 * Similar to above, using a game engine for a launcher is overkill and it uses more resources than a launcher should (though not very noticeable)
-* The code in one file... y-y-y-e-e-e-ah... my bad :)
+* The code in one file.
 * Deletes and downloads the complete directory the game resides in.. Wouldn't want to store any persistent data there
 * Users can directly use the downloaded application and avoid the launcher to stay on a older version (though there are many easy fixes)
 
@@ -34,8 +34,3 @@ As discussed previously, this can be useful for auto-updating application files 
 
 #### Documentation:
 To setup with unity cloud you can follow the instructions in [Setup](./Setup.md)  
-  
-Cheers,<br>
-Smile :)  
-
-### Special thanks to [@snoweuph](https://www.snoweuph.net/) for his help in testing and finalizing
